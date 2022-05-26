@@ -1,0 +1,14 @@
+{
+    "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "selector-nested-pattern": "^&"
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "postcss.validate": false,
+   "css.customData": [".vscode/css_custom_data.json"]
+}

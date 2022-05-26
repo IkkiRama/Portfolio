@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    img{
+        @apply object-cover object-center;
+    }
+
+    body{
+        font-family: "Inter", sans-serif;
+    }
+
+}
+
+
+.nav-fixed{
+    @apply fixed  shadow-md backdrop-blur-xl;
+}
+
+.menu-active > span:nth-child(1){
+    @apply rotate-45 ;
+}
+
+.menu-active > span:nth-child(2){
+    @apply rotate-90 scale-0;
+}
+
+.menu-active > span:nth-child(3){
+    @apply -rotate-45;
+}
+
+.title{
+    @apply text-secondary tracking-wider font-bold text-lg uppercase mb-3 md:text-xl; 
+}
+
+#toggle:checked ~ label div.toggle-circle,
+#toggle2:checked ~ label div.toggle-circle{
+    @apply translate-x-6;
+}
+
+
+.navMobile{
+    @apply -translate-x-full
+}
+
+.navMobile.show{
+    @apply translate-x-0
+}
+
+
+
+
+
+@layer components {
+    #tentangSaya h2,
+    #portfolio h2{
+        @apply text-dark font-semibold text-3xl mb-6 md:text-4xl dark:text-slate-200;
+    }
+    #tentangSaya p,
+    #portfolio p{
+        @apply text-slate-600 text-base md:text-lg dark:text-slate-400 ;
+    }
+
+    .boxTentangSaya{
+        @apply w-full lg:w-1/2 lg:px-6;
+    }
+
+    .dark-bg{
+        @apply dark:bg-slate-900 transition-colors duration-500;
+    }
+
+
+    .menu span{
+        @apply w-[30px] h-[2px] my-1 block bg-dark transition duration-300 ease-in-out dark:bg-slate-200;
+    }
+
+}
+
+@layer utilities{
+    
+}
