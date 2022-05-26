@@ -13,9 +13,11 @@ checkbox2.addEventListener("click", () => {
 });
 
 let header = document.querySelector("header");
+const animasi = document.querySelector("#animasi");
 window.addEventListener("scroll", () => {
   let pos = window.scrollY > 0;
   header.classList.toggle("nav-fixed", pos);
+  animasi.classList.toggle("fixed", pos);
 });
 
 // Hamburger

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="dist/css/output.css">
 </head>
 
-<body class="overflow-x-hidden dark-bg">
+<body class="overflow-x-hidden dark-bg scroll-smooth">
 
     <!-- Header Start -->
-    <header class="bg-transparent transition absolute top-0 w-full h-16 z-[99999999999999999999999999]">
+    <header class="bg-transparent transition absolute top-0 w-full h-16 z-[99999999999999999999999999] ">
         <div class="w-full h-full container flex items-center justify-between">
 
             <a href="#" class="text-primary lg:pl-4 text-xl font-bold">Rifki Romadhan</a>
@@ -26,28 +26,25 @@
             <nav class="hidden lg:block">
                 <ul class="flex">
                     <li class="mx-4">
-                        <a href="" class="text-dark dark:text-slate-200">Beranda</a>
+                        <a href="#hero" class="text-dark dark:text-slate-200">Beranda</a>
                     </li>
 
                     <li class="mx-4">
-                        <a href="" class="text-dark dark:text-slate-200">Tentang Saya</a>
+                        <a href="#tentangSaya" class="text-dark dark:text-slate-200">Tentang Saya</a>
                     </li>
 
                     <li class="mx-4">
-                        <a href="" class="text-dark dark:text-slate-200">Portfolio</a>
+                        <a href="#portfolio" class="text-dark dark:text-slate-200">Portfolio</a>
                     </li>
 
                     <li class="mx-4">
-                        <a href="" class="text-dark dark:text-slate-200">Clients</a>
+                        <a href="#contact" class="text-dark dark:text-slate-200">Contact</a>
                     </li>
 
                     <li class="mx-4">
-                        <a href="" class="text-dark dark:text-slate-200">Blog</a>
+                        <a href="#clients" class="text-dark dark:text-slate-200">Clients</a>
                     </li>
 
-                    <li class="mx-4">
-                        <a href="" class="text-dark dark:text-slate-200">Contact</a>
-                    </li>
 
                     <li class="mx-4">
                         <div class="flex">
@@ -74,31 +71,28 @@
 
     <!-- Nav Mobile Start-->
     <nav
-        class="w-full transition duration-300 ease-in-out z-[999999999] lg:hidden navMobile pt-16 fixed backdrop-blur-xl bg-transparent">
+        class="w-full transition duration-300 ease-in-out z-[999999999] lg:hidden navMobile pt-16 fixed backdrop-blur-xl bg-transparent ">
         <ul class="flex flex-wrap">
             <li class="w-full p-3">
-                <a href="" class="text-dark font-semibold dark:text-slate-200">Beranda</a>
+                <a href="#hero" class="text-dark font-semibold dark:text-slate-200">Beranda</a>
             </li>
 
             <li class="w-full p-3">
-                <a href="" class="text-dark font-semibold dark:text-slate-200">Tentang Saya</a>
+                <a href="#tentangSaya" class="text-dark font-semibold dark:text-slate-200">Tentang Saya</a>
             </li>
 
             <li class="w-full p-3">
-                <a href="" class="text-dark font-semibold dark:text-slate-200">Portfolio</a>
+                <a href="#portfolio" class="text-dark font-semibold dark:text-slate-200">Portfolio</a>
             </li>
 
             <li class="w-full p-3">
-                <a href="" class="text-dark font-semibold dark:text-slate-200">Clients</a>
+                <a href="#contact" class="text-dark font-semibold dark:text-slate-200">Contact</a>
             </li>
 
             <li class="w-full p-3">
-                <a href="" class="text-dark font-semibold dark:text-slate-200">Blog</a>
+                <a href="#clients" class="text-dark font-semibold dark:text-slate-200">Clients</a>
             </li>
 
-            <li class="w-full p-3">
-                <a href="" class="text-dark font-semibold dark:text-slate-200">Contact</a>
-            </li>
 
             <li class="w-full p-3">
                 <div class="flex">
@@ -123,7 +117,7 @@
 
 
     <!-- Section Hero Start -->
-    <section class="pt-32 lg:pt-0">
+    <section class="pt-32 lg:pt-0" id="hero">
         <div class="container">
             <div class="lg:h-screen flex flex-wrap items-center ">
 
@@ -142,7 +136,7 @@
                         bootcamps in the field of information technology.
                     </p>
 
-                    <a href=""
+                    <a href="https://wa.link/iiqcmb"
                         class="px-8 py-3 bg-secondary text-white rounded-lg font-semibold hover:shadow-lg hover:bg-opacity-95 transition duration-300 ease-in-out active:ring-1 active:ring-offset-1 ring-secbg-secondary hover:outline hover:outline-1 hover:outline-sky-300 ">Hubungi
                         Saya</a>
                 </div>
@@ -218,7 +212,7 @@
                         </a>
 
                         <!-- Github -->
-                        <a href="http://github.com/IkkiRama/" target="_blank"
+                        <a href="https://github.com/IkkiRama/" target="_blank"
                             class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
 
                             <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
@@ -298,7 +292,7 @@
 
 
     <!-- Section Project Start -->
-    <section id="portfolio" class="pt-32">
+    <section id="portfolio" class="py-32">
         <div class="container">
             <div class="flex flex-wrap text-center justify-center ">
                 <div class="boxTentangSaya">
@@ -312,8 +306,8 @@
             </div>
 
             <div class="flex flex-wrap justify-evenly md:gap-4 ">
-                <div class="w-full p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img class="w-full h-64 mb-5  rounded-lg bg-blue-500">
+                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                    <img class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
                     <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Sekolahan</h3>
 
                     <div class="btn flex">
@@ -324,8 +318,8 @@
                     </div>
                 </div>
 
-                <div class="w-full p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img class="w-full h-64 mb-5  rounded-lg bg-blue-500">
+                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                    <img class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
                     <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Sekolahan</h3>
 
                     <div class="btn flex">
@@ -336,8 +330,8 @@
                     </div>
                 </div>
 
-                <div class="w-full p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img class="w-full h-64 mb-5  rounded-lg bg-blue-500">
+                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                    <img class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
                     <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Sekolahan</h3>
 
                     <div class="btn flex">
@@ -348,8 +342,8 @@
                     </div>
                 </div>
 
-                <div class="w-full p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img class="w-full h-64 mb-5  rounded-lg bg-blue-500">
+                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                    <img class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
                     <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Sekolahan</h3>
 
                     <div class="btn flex">
@@ -360,8 +354,8 @@
                     </div>
                 </div>
 
-                <div class="w-full p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img class="w-full h-64 mb-5  rounded-lg bg-blue-500">
+                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                    <img class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
                     <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Sekolahan</h3>
 
                     <div class="btn flex">
@@ -383,7 +377,250 @@
 
 
 
-    <div class="mb-96"></div>
+    <!-- Section Hubungi Saya Start -->
+    <section id="contact">
+        <div class="mb-32 flex flex-row justify-center flex-wrap lg:flex-nowrap">
+
+            <div class="w-[40%] bg-dark dark:bg-blue-600 rounded-tr-xl rounded-br-xl mr-3">
+                <div class="container pt-10 pl-20">
+                    <h2 class="font-bold text-xl ">Contact</h2>
+                    <div class="w-5 h-3 rounded-full"></div>
+                    <p class="text-white">
+                        Any question or remarks? Just write me a message
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-[60%]">
+                <div class="container">
+                    <form action="" class="mt-10 lg:mt-0 max-w-2xl">
+                        <label for="name" class="w-full text-secondary font-semibold  ">Name</label>
+                        <input type="text" id="name"
+                            class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-100"
+                            placeholder="Masukkan nama anda...">
+
+                        <label for="email" class="w-full text-secondary font-semibold  ">Email</label>
+                        <input type="email" id="email"
+                            class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-100"
+                            placeholder="Masukkan email anda...">
+
+                        <label for="message" class="w-full text-secondary font-semibold  ">Message</label>
+                        <textarea id="message" rows="5"
+                            class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-100"
+                            placeholder="Masukkan pesan anda..."></textarea>
+
+                        <button
+                            class="px-10 py-3 bg-secondary rounded-lg shadow-md text-white font-semibold hover:bg-sky-600 active:bg-sky-700">Kirim</button>
+
+                    </form>
+                </div>
+
+
+            </div>
+    </section>
+    <!-- Section Hubungi Saya End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Section Partner Start -->
+    <section id="clients" class="bg-blue-600 lg:rounded-tl-[100px]">
+        <!-- client -->
+        <div class="py-10 lg:pl-[55px] lg:py-20">
+            <div class="container">
+                <div class="flex flex-wrap lg:mb-20 lg:flex-nowrap items-center">
+                    <h2 class="font-bold text-white text-3xl lg:text-4xl mb-5 lg:mr-20 ">Clients</h2>
+                    <p class=" text-white mb-10 lg:mb-0 max-w-[630px] lg:text-xl">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum nesciunt soluta earum
+                        maiores? Eos dignissimos, voluptate dicta
+                    </p>
+                </div>
+
+                <!-- imgClient -->
+                <div class="flex flex-wrap justify-evenly items-center">
+                    <!-- gojek -->
+                    <svg class="imgClient" version="1.1" viewBox="0 0 119 28">
+                        <title>Gojek logo (2019</title>
+                        <g>
+                            <path
+                                d="m8.77 14c0-2.89 2.35-5.23 5.25-5.23 2.9 0 5.25 2.34 5.25 5.23 0 2.89-2.35 5.23-5.25 5.23-2.9 0-5.25-2.34-5.25-5.23"
+                                fill="#00AA13" />
+                            <path
+                                d="m14 0.062c-7.73 0-14 6.24-14 13.9 0 5.78 3.5 10.7 8.59 12.9a2.62 2.62 0 0 0 3.59-1.9 2.61 2.61 0 0 0-1.56-2.93v-1e-3c-3.15-1.32-5.37-4.42-5.37-8.04 0-4.82 3.92-8.72 8.75-8.72s8.75 3.9 8.75 8.72c0 3.62-2.22 6.72-5.37 8.04v2e-3a2.61 2.61 0 0 0 1.01 5.03 2.72 2.72 0 0 0 1.01-0.203c5.09-2.15 8.6-7.08 8.6-12.9 0-7.7-6.27-13.9-14-13.9"
+                                fill="#00AA13" />
+                            <path
+                                d="m68.6 12.5c0-2.52-1.74-4.4-4.44-4.4-2.71 0-4.45 1.88-4.45 4.4 0 2.52 1.74 4.4 4.45 4.4 2.71 0 4.44-1.88 4.44-4.4m-13.2 0c0-4.63 3.68-8.21 8.8-8.21 5.15 0 8.8 3.58 8.8 8.21s-3.65 8.21-8.8 8.21c-5.12 0-8.8-3.58-8.8-8.21m16.1 11.6h2.36c1.27 0 1.71-0.47 1.71-1.58v-18.2h4.36v18.2c0 3.84-1.56 5.48-5.71 5.48h-2.71v-3.96zm-23.1-10.7c0 1.92-1.96 3.45-4.44 3.45-2.81 0-4.56-1.65-4.56-4.4 0-2.54 1.87-4.28 4.74-4.28 2.28 0 4.27 1.59 4.27 3.39v1.83zm0.178-9.07v1.83h-0.06c-1.13-1.18-2.99-1.83-5.21-1.83-4.77 0-8.3 3.54-8.3 8.12 0 4.75 3.62 8.24 8.44 8.24 2.16 0 3.97-0.68 5.07-1.89h0.06v1.58c0 2.12-1.84 3.69-4.27 3.69-2.45 0-3.88-0.688-5.11-1.87l-2.84 2.72c1.9 2.01 4.77 3.15 8.04 3.15 4.98 0 8.38-3.33 8.38-7.75v-16h-4.21zm42.5 3.52c2.32 0 3.94 1.2 4.15 3.02h-8.36c0.236-1.82 1.86-3.02 4.21-3.02m0.45 9.39c-2.61 0-4.66-1.68-4.72-3.31h12.7v-1.23c0-4.66-3.24-8.36-8.48-8.36-4.95 0-8.48 3.46-8.48 8.24 0 4.93 3.73 8.18 9.2 8.18 3.36 0 5.76-1.6 7.02-3.14l-2.95-2.06c-1.31 1.22-2.5 1.68-4.25 1.68m10.5-17.1h4.21l0.023 10.8h0.057l7.04-6.58h5.64l-7.3 6.88 7.27 9.57h-5.03l-4.99-6.92h-0.057l-2.65 2.5v4.43h-4.21z" />
+                        </g>
+                    </svg>
+
+
+                    <!-- google -->
+                    <svg viewBox="0 0 272 92" class="imgClient">
+                        <path fill="#EA4335"
+                            d="M115.75 47.18c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18C71.25 34.32 81.24 25 93.5 25s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44S80.99 39.2 80.99 47.18c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z" />
+                        <path fill="#FBBC05"
+                            d="M163.75 47.18c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18c0-12.85 9.99-22.18 22.25-22.18s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44s-12.51 5.46-12.51 13.44c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z" />
+                        <path fill="#4285F4"
+                            d="M209.75 26.34v39.82c0 16.38-9.66 23.07-21.08 23.07-10.75 0-17.22-7.19-19.66-13.07l8.48-3.53c1.51 3.61 5.21 7.87 11.17 7.87 7.31 0 11.84-4.51 11.84-13v-3.19h-.34c-2.18 2.69-6.38 5.04-11.68 5.04-11.09 0-21.25-9.66-21.25-22.09 0-12.52 10.16-22.26 21.25-22.26 5.29 0 9.49 2.35 11.68 4.96h.34v-3.61h9.25zm-8.56 20.92c0-7.81-5.21-13.52-11.84-13.52-6.72 0-12.35 5.71-12.35 13.52 0 7.73 5.63 13.36 12.35 13.36 6.63 0 11.84-5.63 11.84-13.36z" />
+                        <path fill="#34A853" d="M225 3v65h-9.5V3h9.5z" />
+                        <path fill="#EA4335"
+                            d="M262.02 54.48l7.56 5.04c-2.44 3.61-8.32 9.83-18.48 9.83-12.6 0-22.01-9.74-22.01-22.18 0-13.19 9.49-22.18 20.92-22.18 11.51 0 17.14 9.16 18.98 14.11l1.01 2.52-29.65 12.28c2.27 4.45 5.8 6.72 10.75 6.72 4.96 0 8.4-2.44 10.92-6.14zm-23.27-7.98l19.82-8.23c-1.09-2.77-4.37-4.7-8.23-4.7-4.95 0-11.84 4.37-11.59 12.93z" />
+                        <path fill="#4285F4"
+                            d="M35.29 41.41V32H67c.31 1.64.47 3.58.47 5.68 0 7.06-1.93 15.79-8.15 22.01-6.05 6.3-13.78 9.66-24.02 9.66C16.32 69.35.36 53.89.36 34.91.36 15.93 16.32.47 35.3.47c10.5 0 17.98 4.12 23.6 9.49l-6.64 6.64c-4.03-3.78-9.49-6.72-16.97-6.72-13.86 0-24.7 11.17-24.7 25.03 0 13.86 10.84 25.03 24.7 25.03 8.99 0 14.11-3.61 17.39-6.89 2.66-2.66 4.41-6.46 5.1-11.65l-22.49.01z" />
+                    </svg>
+
+                    <!-- tokopedia -->
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg class="imgClient" version="1.1" viewBox="0 0 400 87">
+                        <title>Tokopedia textlogo</title>
+                        <path
+                            d="m213.9 61c-4.347 4.417-9.548 6.637-15.57 6.637-4.874 0-9.016-0.9948-13.24-3.454v-10.13c3.401 2.309 7.673 4.508 11.89 4.508 8.792 0 14.02-6.058 14.02-14.64 0-8.592-5.412-14.83-14.21-14.83-3.928 0-7.112 1.414-9.599 4.248-2.666 3.07-4.044 7.458-4.044 13.26v39.98h-0.6624c-4.846 0-8.771-3.932-8.771-8.782v-32.7c0-13.88 8.472-25.08 23.03-25.08 7.19 0 13.03 2.462 17.46 7.407 4.163 4.621 6.226 10.48 6.226 17.52 0 6.27-2.177 11.63-6.527 16.05zm102.1-0.3387c-4.33 4.654-9.903 6.976-16.66 6.976-7.132 0-12.94-2.462-17.37-7.407-4.161-4.678-6.225-10.54-6.225-17.52 0-12.36 9.528-22.69 22.07-22.69 4.836 0 9.035 1.022 13.28 3.352v10.23c-3.401-2.309-7.672-4.508-11.89-4.508-8.792 0-14.03 6.057-14.03 14.65 0 8.471 5.539 14.83 14.21 14.83 3.925 0 7.157-1.473 9.742-4.439 2.569-2.948 3.904-7.279 3.904-13.1v-31.82c0-4.852 3.928-8.782 8.771-8.782h0.6624v42.1c0 7.414-2.143 13.48-6.468 18.14zm26.64-45.13c-0.99 1.11-2.409 1.621-4.141 1.621-3.238 0-5.556-2.391-5.556-5.609 0-3.293 2.274-5.516 5.556-5.516 3.158 0 5.556 2.344 5.556 5.516 0 1.569-0.4594 2.914-1.415 3.988zm47.93 25.5c0-3.724-1.407-6.671-4.233-8.905-2.546-2.01-5.726-3.032-9.596-3.032-8.539 0-14.02 6.683-14.02 14.92 0 7.931 5.811 14.55 13.93 14.55 5.648 0 8.668-3.303 11.89-7.418v11.86c-1.641 1.231-3.528 2.573-5.455 3.361-2.033 0.8498-4.461 1.263-7.265 1.263-13.58 0-22.53-11.26-22.53-24.27 0-6.682 2.073-12.21 6.246-16.51 4.428-4.565 10.24-6.829 17.35-6.829 13.48 0 23.13 7.751 23.13 21.76v24.93h-0.66c-4.848 0-8.776-3.932-8.776-8.783zm-129.1-2.675c-1.192-3.692-2.686-5.508-6.124-7.43-8.175-4.574-16.22-0.6799-19.96 7.394zm-7.198 29.14c-6.026 1.282-11.94 0.2936-17.71-2.935-5.628-3.146-9.396-7.825-11.28-14.01-3.819-12.5 4.004-26.44 16.59-29.81 6.237-1.672 12.22-0.9152 17.9 2.263 9.436 5.282 12.88 13.45 12.27 23.98l-38.01-0.07606c0.5603 4.293 3.218 7.652 6.955 9.741 3.788 2.119 7.271 2.626 10.5 1.622 3.589-1.128 6.499-4.06 8.866-6.789l7.746 5.65c-3.159 5.66-7.46 9.01-13.83 10.37zm79.55-46.54h9.433v45.75h-0.6636c-4.841 0-8.769-3.932-8.769-8.783zm-320 45.75c-9.227 0-13.81-6.284-13.81-15.06v-33.29c0-4.851 3.928-8.782 8.773-8.782h0.6624v11.39h15.94v9.072h-15.94v22.67c0 3.854 1.718 4.937 5.396 4.937h10.54v9.071zm54.79-5.782c-4.66 4.474-10.26 6.715-16.77 6.715-6.447 0-12.02-2.244-16.68-6.715-4.676-4.49-7.007-10.2-7.007-17.09 0-13.44 10.25-23.81 23.68-23.81 6.449 0 12.03 2.261 16.72 6.765 4.706 4.518 7.056 10.22 7.056 17.04 0 6.887-2.334 12.6-7.01 17.09zm44.11-28.96c-1.384 2.324-2.457 3.99-3.212 4.997-0.8322 1.095-1.654 1.969-2.468 2.574 6.556 2.12 8.998 6.668 8.998 13.44v13.73h-0.6624c-4.844 0-8.773-3.932-8.773-8.783v-4.011c0-4.387-1.965-7.363-6.607-7.363h-8.567v20.16h-0.6624c-4.844 0-8.769-3.932-8.769-8.783v-48.71c0-4.852 3.924-8.782 8.769-8.782h0.6624v36.96h2.788c3.064 0 5.077-1.049 6.233-3.034l7.924-13.39 10.75-0.0107zm48.7 28.96c-4.662 4.474-10.26 6.715-16.77 6.715-6.446 0-12.02-2.244-16.68-6.715-4.676-4.49-7.007-10.2-7.007-17.09 0-13.44 10.25-23.81 23.68-23.81 6.451 0 12.03 2.261 16.72 6.765 4.706 4.518 7.055 10.22 7.055 17.04 0 6.887-2.333 12.6-7.009 17.09zm-6.809-27.74c-2.601-2.723-5.902-4.09-9.962-4.09-8.681 0-13.88 6.337-13.88 14.74 0 8.283 5.32 14.74 13.88 14.74 8.561 0 13.88-6.453 13.88-14.74 0-4.398-1.32-7.927-3.917-10.65zm-92.8 0c-2.6-2.723-5.902-4.09-9.961-4.09-8.681 0-13.88 6.337-13.88 14.74 0 8.283 5.32 14.74 13.88 14.74 8.56 0 13.88-6.453 13.88-14.74 0-4.398-1.319-7.927-3.917-10.65z"
+                            style="fill-rule:evenodd;fill:#42b549;stroke-width:2.837" />
+                    </svg>
+
+                    <!-- traveloka -->
+                    <svg xml:space="preserve" class="imgClient" version="1.1"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        viewBox="0 0 9719 2159.95" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+                        <defs>
+                            <style type="text/css">
+                                <![CDATA[
+                                .fil2 {
+                                    fill: #0A7FA7
+                                }
+
+                                .fil1 {
+                                    fill: #189CC2
+                                }
+
+                                .fil3 {
+                                    fill: #1BA0E1
+                                }
+
+                                .fil0 {
+                                    fill: #434343;
+                                    fill-rule: nonzero
+                                }
+                                ]]>
+                            </style>
+                        </defs>
+                        <g id="Layer_x0020_1">
+                            <metadata id="CorelCorpID_0Corel-Layer" />
+                            <g id="_2150080273616">
+                                <path class="fil0"
+                                    d="M287.73 2074.61c-84.28,-58.75 -151.94,-163.78 -151.94,-350.16l0 -493.72 -99.4 0 -36.39 0 0 -36.39 0 -116.66 0 -36.38 36.39 0 101.46 0 0 -256.3 0 -36.39 36.39 0 137.83 0 36.39 0 0 36.39 0 256.3 224.9 0 36.39 0 0 36.38 0 116.66 0 36.39 -36.39 0 -224.9 0 0 479.39c0,86.52 21.28,141.63 51.16,176.3 42.97,49.88 106.12,59.53 147,59.53 7.04,0 14.09,0 19.69,-0.37l0.14 0c6.27,-0.41 12.76,-1.21 19.67,-2.73l44.2 -9.78 0 45.17 0 124.86 0 30.76 -30.56 5.06c-7.94,1.32 -18.47,2.61 -30.95,3.46 -10.58,0.72 -22.27,1.19 -34.54,1.19 -64.64,0 -163.02,-10.74 -246.54,-68.96zm655.95 60.78l-139.89 0 -36.38 0 0 -36.39 0 -1029.5 0 -36.39 36.38 0 137.84 0 36.39 0 0 36.39 0 112.85c20.43,-28.06 43.58,-53.47 69.21,-75.33 61.19,-52.17 136.1,-84.14 221.53,-84.14 10.4,0 21.8,0.63 33.28,1.9 10.71,1.18 21.3,2.97 30.94,5.37l27.72 6.9 0 28.35 0 137.13 0 50.32 -47.77 -15.78c-0.44,-0.14 -5.19,-0.58 -12.19,-1.14 -8.37,-0.66 -18.46,-1.11 -27.87,-1.11 -89.82,0 -156.66,45.07 -203.31,110.91l-0.07 -0.05c-61.68,87.13 -89.42,209.99 -89.42,317.37l0 435.95 0 36.39 -36.39 0zm566.43 -70.85c-66,-56.77 -109.04,-137.66 -109.04,-241.84 0,-188.55 118.86,-287.92 264.87,-340 138.09,-49.26 299.77,-54.58 401.08,-54.58l25.27 0c-1.22,-78.4 -21.05,-131.93 -53.86,-166.15 -38.21,-39.85 -96.48,-55.8 -164.81,-55.8 -48.02,0 -95.9,8.27 -141.34,23.44 -47.2,15.77 -91.89,38.83 -131.54,67.7l-32.07 23.36 -20.38 -34.02 -63.77 -106.43 -15.85 -26.45 23.52 -19.89c44.85,-37.92 106.56,-69.52 175.38,-91.44 67.55,-21.52 142.14,-33.9 214.28,-33.9 134.98,0 240.66,38.26 313.31,112.47 72.02,73.55 109.86,180.62 109.86,318.94l0 659.05 0 36.39 -36.39 0 -133.73 0 -36.39 0 0 -36.39 0 -79.91c-24.13,27.14 -52.08,51.66 -83.31,72.32 -63.91,42.26 -141.44,68.54 -227.99,68.54 -101.54,0 -203.56,-32.15 -277.1,-95.41zm264.19 -422.95c-87.85,25.91 -158.5,75.04 -158.5,168.82 0,41.52 18.23,84.07 54.42,114.65 32.41,27.4 79.58,45.45 141.67,45.45 80.56,0 145.97,-38.64 193.07,-95.82 56.61,-68.76 87.38,-163.77 87.38,-252.58l0 -10.68 -23.27 0c-78.23,0 -197.47,1.46 -294.77,30.16zm1234.99 493.8l-152.25 0 -24.79 0 -9.04 -23.31 -399.13 -1029.5 -19.17 -49.47 53 0 150.19 0 25.04 0 8.93 23.59 285.97 755.24 0.15 0.43c1.32,3.66 2.63,7.42 3.93,11.26 1.31,-3.83 2.64,-7.6 3.96,-11.26l0.14 -0.43 285.97 -755.24 8.94 -23.59 25.03 0 148.14 0 52.9 0 -18.93 49.32 -395.01 1029.5 -8.99 23.46 -24.98 0zm641.95 -138.89c-102.36,-101.45 -163.99,-243.95 -163.99,-411.22 0,-173.07 58.15,-313.3 152.05,-412.35 100.74,-106.25 242.06,-164.39 396.61,-164.39 146.85,0 260.09,53.91 338.83,140.44 86.08,94.61 129.61,227.6 129.61,370.79 0,11.36 -0.57,24.03 -1.43,37.08 -0.65,9.93 -1.79,22.88 -2.97,35.79l-3.02 33.12 -33.08 0 -755.69 0c9.43,98.05 46.57,175.86 101.37,231.5 66.44,67.45 159.65,103.01 261.36,103.01 51.66,0 104.31,-10.68 153.73,-29.96 50.46,-19.69 97.51,-48.24 136.73,-83.46l32.78 -29.43 22.66 37.82 63.79 106.43 15.28 25.5 -21.97 19.98c-51.47,46.86 -116.97,84.98 -187.54,111.4 -71.01,26.59 -147.26,41.4 -219.57,41.4 -165.51,0 -311.37,-60.2 -415.54,-163.45zm168.05 -722.35c-45.39,40.71 -80.23,97.16 -98.81,168.3l566.35 0c-8.83,-73.9 -34.79,-130.7 -71.85,-170.92 -46.67,-50.64 -112.02,-75.59 -183.18,-75.59 -80.47,0 -155.23,26.83 -212.51,78.21zm978.81 821.16c-57.79,-40.94 -103.19,-113.19 -103.19,-239.87l0 -1195.29 0 -36.39 36.39 0 139.91 0 36.39 0 0 36.39 0 1164.59c0,56.23 11.36,86.74 27.49,102.42 13.96,13.57 34.34,16.74 53.38,16.74 4.8,0 10.8,-0.01 13.36,-0.12 4.33,-0.19 9.05,-0.58 13.74,-1.36l42.21 -7 0 42.82 0 124.86 0 30.78 -30.56 5.04c-6.54,1.08 -14.44,2.19 -24.41,3.09 -10.39,0.94 -21.46,1.56 -32.85,1.56 -47.31,0 -114.65,-7.74 -171.86,-48.26zm500.79 -103.74c-103.9,-103.75 -167.81,-248.02 -167.81,-412.44 0,-161.56 64,-303.35 168.02,-405.27 105.35,-103.23 251.54,-165.32 413.57,-165.32 162.14,0 308.93,62.15 414.76,165.45 104.44,101.96 168.9,243.69 168.9,405.14 0,164.31 -64.31,308.46 -168.55,412.16 -105.89,105.35 -252.81,168.66 -415.11,168.66 -162.2,0 -308.46,-63.21 -413.78,-168.38zm154.17 -677.59c-65.09,66.41 -105.19,159.2 -105.19,265.15 0,109.67 39.89,204.31 104.68,271.74 65.94,68.62 157.95,109.4 260.12,109.4 102.36,0 195,-40.89 261.43,-109.68 65.15,-67.46 105.42,-161.99 105.42,-271.46 0,-105.75 -40.49,-198.43 -105.94,-264.87 -66.44,-67.45 -158.85,-108.09 -260.91,-108.09 -101.87,0 -193.67,40.53 -259.61,107.81zm1208.05 821.41l-139.9 0 -36.39 0 0 -36.39 0 -1438.85 0 -36.39 36.39 0 139.9 0 36.39 0 0 36.39 0 765.93 112.62 0 297.66 -379.04 10.94 -13.93 17.64 0 168.71 0 75.78 0 -47.5 59.13 -344.64 429.07 383.23 557.08 39.21 57 -69.06 0 -168.69 0 -19.3 0 -10.83 -16.21 -332.75 -497.52 -113.02 0 0 477.34 0 36.39 -36.39 0zm850.33 -70.85c-66,-56.77 -109.03,-137.66 -109.03,-241.84 0,-188.55 118.85,-287.92 264.87,-340 138.09,-49.26 299.77,-54.58 401.07,-54.58l25.27 0c-1.21,-78.41 -21.04,-131.93 -53.84,-166.15 -38.22,-39.85 -96.49,-55.8 -164.82,-55.8 -48.02,0 -95.9,8.27 -141.33,23.44 -47.21,15.77 -91.9,38.83 -131.55,67.7l-32.07 23.36 -20.38 -34.02 -63.78 -106.43 -15.85 -26.44 23.52 -19.9c44.85,-37.92 106.57,-69.52 175.38,-91.44 67.56,-21.52 142.14,-33.9 214.29,-33.9 134.97,0 240.65,38.26 313.31,112.47 72.02,73.55 109.86,180.62 109.86,318.94l0 659.05 0 36.39 -36.39 0 -133.73 0 -36.39 0 0 -36.39 0 -79.92c-24.13,27.15 -52.08,51.67 -83.31,72.33 -63.9,42.26 -141.44,68.54 -227.99,68.54 -101.54,0 -203.57,-32.15 -277.11,-95.41zm264.2 -422.95c-87.84,25.91 -158.49,75.04 -158.49,168.82 0,41.52 18.22,84.08 54.41,114.66 32.41,27.39 79.58,45.44 141.68,45.44 80.55,0 145.97,-38.63 193.06,-95.83 56.61,-68.75 87.38,-163.77 87.38,-252.57l0 -10.68 -23.27 0c-78.23,0 -197.47,1.46 -294.77,30.16z" />
+                                <path class="fil1"
+                                    d="M9111.98 1140.7c1.22,-0.75 2.43,-1.44 3.66,-2.21 -55.49,-165.82 175.26,-446.03 603.36,-914.66 -346.09,42.47 -613.78,130.32 -803.13,263.55 18.44,271.58 83.8,489.37 196.11,653.32z" />
+                                <path class="fil2"
+                                    d="M9111.98 1140.7c1.22,-0.75 2.43,-1.44 3.66,-2.21 -1.88,-5.6 -3.39,-11.35 -4.62,-17.22 -54.04,-205.35 -75.93,-442.6 -65.68,-711.74 -46.6,23.95 -89.76,49.9 -129.47,77.83 18.43,271.59 83.79,489.38 196.11,653.34z" />
+                                <path class="fil3"
+                                    d="M9254.43 1378.41c91.44,46.79 167.17,70.96 234.29,59.37 -451.02,-176.79 -638.23,-656.05 -561.64,-1437.78 -162.02,31.85 -293.53,105.96 -385.12,229.47 -79.78,107.58 -54.18,244.36 11.24,426.84 8.77,24.5 19.33,156.4 -35.31,205.4 -20.08,18 -52.33,3.76 -80.23,-14.44 -95.9,-54.47 -175.59,-53.94 -239.1,1.6 -175.02,-29.38 -301.79,-45.42 -380.31,-48.14 112.01,35.29 241.42,71.53 386.73,113.93 62.06,18.11 115.3,60.67 157.25,125.16 85.86,131.98 329.16,203.55 564.84,237.5 88.44,12.74 210.71,41.4 327.36,101.09z" />
+                            </g>
+                        </g>
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-full mt-5 pt-7 md:pt-16 bg-dark  lg:w-[90%] lg:rounded-tr-[100px]">
+            <div class="container">
+                <!-- kolaborasi -->
+                <div class="mb-16 lg:pl-10">
+                    <h2 class="text-white font-bold text-2xl md:text-3xl lg:text-4xl ">Tertarik Untuk Kolaborasi?</h2>
+                    <p class="text-base text-white mt-5 mb-10 max-w-[630px] md:text-xl lg:mt-10 lg:mb-16">
+                        Saya suka membangun hubungan dekat dengan klien saya. Saya percaya kolaborasi dinamis adalah
+                        satu-satunya cara untuk menyelesaikan pekerjaan dengan baik.
+                    </p>
+
+                    <a href="https://wa.link/iiqcmb" class="py-3 font-semibold px-8 bg-blue-600 text-white rounded-xl shadow-md hover:outline hover:outline-2
+                    hover:outline-blue-400 active:ring-1 active:ring-offset-2 active:ring-secondary ">Hubungi</a>
+                </div>
+
+                <!-- footer -->
+                <div class="flex flex-wrap lg:pl-10">
+                    <div class="mt-10 w-full lg:w-1/3">
+                        <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Hubungi Saya</h2>
+                        <p class="text-white mb-2 md:text-lg mb:mb-4">No Wa : 082133320489</p>
+                        <p class="text-white mb-2 md:text-lg mb:mb-4">Email : georgeikkirama@gmail.com</p>
+                        <p class="text-white mb-2 md:text-lg mb:mb-4">Alamat : Jl. Raya Dagan RT 03 RW 09</p>
+                    </div>
+
+                    <div class="mt-10 w-full sm:w-1/2 lg:w-1/3">
+                        <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Tautan</h2>
+                        <div class="flex flex-wrap">
+                            <a href="#hero"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Beranda</a>
+                            <a href="#tentangSaya"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Tentang
+                                Saya</a>
+                            <a href="#portfolio"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Portfolio</a>
+                            <a href="#contact"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Contact</a>
+                            <a href="#clients"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Clients</a>
+                        </div>
+                    </div>
+
+                    <div class="my-10 w-full sm:w-1/2 lg:w-1/3">
+                        <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Social Media</h2>
+                        <div class="flex flex-wrap">
+                            <a href="https://wa.link/iiqcmb"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">WhatsApp</a>
+                            <a href="https://github.com/IkkiRama"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">GitHub</a>
+                            <a href="https://www.instagram.com/george_ikki/"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Instagram</a>
+                            <a href="https://www.youtube.com/channel/UCDYgvHIUtwRDRfS4srHFQDg"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Youtube</a>
+                            <a href="https://www.linkedin.com/in/rifki-romadhan-purbalingga/"
+                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <footer class="text-white w-full text-center text-xs font-medium lg:text-lg py-5 lg:py-7 lg:mt-20">
+                        Dibuat dengan ❤️ oleh <a href="http://github.com/IkkiRama/"
+                            class="hover:underline text-primary">Rifki
+                            Romadhan</a>,
+                        menggunakan <a href="https://tailwindcss.com/" class="hover:underline text-primary">Tailwind
+                            CSS</a>.
+                    </footer>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Section Partner End -->
+
+
+
+    <a href=""
+        class="bottom-4 right-4 z-[9999] h-12 w-12 animate-bounce items-center justify-center rounded-full bg-primary  hover:animate-pulse flex"
+        id="animasi">
+        <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
+    </a>
+
+
     <script src="dist/js/scirpt.js"></script>
 
 

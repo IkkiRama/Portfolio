@@ -36,6 +36,10 @@
     @apply text-secondary tracking-wider font-bold text-lg uppercase mb-3 md:text-xl; 
 }
 
+.imgClient{
+    @apply m-0 w-[45%] h-10 mx-1 my-3 sm:w-[30%] lg:w-[20%] lg:h-16;
+}
+
 #toggle:checked ~ label div.toggle-circle,
 #toggle2:checked ~ label div.toggle-circle{
     @apply translate-x-6;
@@ -56,10 +60,12 @@
 
 @layer components {
     #tentangSaya h2,
+    #contact h2,
     #portfolio h2{
         @apply text-dark font-semibold text-3xl mb-6 md:text-4xl dark:text-slate-200;
     }
     #tentangSaya p,
+    #contact p,
     #portfolio p{
         @apply text-slate-600 text-base md:text-lg dark:text-slate-400 ;
     }
