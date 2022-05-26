@@ -60,12 +60,10 @@
 
 @layer components {
     #tentangSaya h2,
-    #contact h2,
     #portfolio h2{
         @apply text-dark font-semibold text-3xl mb-6 md:text-4xl dark:text-slate-200;
     }
     #tentangSaya p,
-    #contact p,
     #portfolio p{
         @apply text-slate-600 text-base md:text-lg dark:text-slate-400 ;
     }
