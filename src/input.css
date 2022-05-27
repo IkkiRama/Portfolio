@@ -37,7 +37,7 @@
 }
 
 .imgClient{
-    @apply m-0 w-[45%] h-10 mx-1 my-3 sm:w-[30%] lg:w-[20%] lg:h-16;
+    @apply m-0 w-[45%] mx-1 my-3 sm:w-[30%] lg:w-[20%] h-full;
 }
 
 #toggle:checked ~ label div.toggle-circle,
