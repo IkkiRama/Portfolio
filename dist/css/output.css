@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 
 /*
 ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
@@ -432,7 +432,8 @@ img{
      object-position: center;
 }
 
-body{
+body {
+  overflow-x: hidden !important;
   font-family: "Inter", sans-serif;
 }
 
@@ -519,7 +520,7 @@ body{
   }
 }
 
-#tentangSaya h2, #portfolio h2{
+#tentangSaya h2, #portfolio h2, #experience h2{
   margin-bottom: 1.5rem;
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -528,32 +529,32 @@ body{
   color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
-.dark #tentangSaya h2, .dark #portfolio h2{
+.dark #tentangSaya h2, .dark #portfolio h2, .dark #experience h2{
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
-  #tentangSaya h2, #portfolio h2{
+  #tentangSaya h2, #portfolio h2, #experience h2{
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 }
 
-#tentangSaya p, #portfolio p{
+#tentangSaya p, #experience p, #portfolio p{
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
 }
 
-.dark #tentangSaya p, .dark #portfolio p{
+.dark #tentangSaya p, .dark #experience p, .dark #portfolio p{
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
-  #tentangSaya p, #portfolio p{
+  #tentangSaya p, #experience p, #portfolio p{
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
@@ -604,6 +605,117 @@ body{
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+.experience-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.experience-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 1024px){
+  .experience-body{
+    padding-top: 2rem;
+  }
+}
+
+.experience-body-container{
+  margin-top: 2.5rem;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-width: 28rem;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  border-color: transparent;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.experience-body-container:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(20 184 166 / var(--tw-border-opacity));
+}
+
+@media (min-width: 640px){
+  .experience-body-container{
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 768px){
+  .experience-body-container{
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px){
+  .experience-body-container{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    width: 45%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.experience-body-title{
+  width: 100%;
+  text-align: center;
+}
+
+.experience-body-title h3{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.dark .experience-body-title h3{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.experience-body-detail{
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-detail{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.experience-detail h4{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.dark .experience-detail h4{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.dark .experience-detail small{
+  color: hsla(0,0%,100%,.6);
+}
+
 .fixed{
   position: fixed;
 }
@@ -628,12 +740,12 @@ body{
   left: 50%;
 }
 
-.bottom-4{
-  bottom: 1rem;
+.bottom-3{
+  bottom: 0.75rem;
 }
 
-.right-4{
-  right: 1rem;
+.right-3{
+  right: 0.75rem;
 }
 
 .z-\[99999999999999999999999999\]{
@@ -707,6 +819,10 @@ body{
 
 .mr-3{
   margin-right: 0.75rem;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
 }
 
 .mb-32{
@@ -928,10 +1044,6 @@ body{
   align-self: center;
 }
 
-.overflow-x-hidden{
-  overflow-x: hidden;
-}
-
 .scroll-smooth{
   scroll-behavior: smooth;
 }
@@ -1065,9 +1177,9 @@ body{
   padding-right: 1rem;
 }
 
-.py-32{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .py-10{
@@ -1091,6 +1203,10 @@ body{
 
 .pt-32{
   padding-top: 8rem;
+}
+
+.pb-32{
+  padding-bottom: 8rem;
 }
 
 .pt-7{
@@ -1230,19 +1346,19 @@ body{
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.menu-active > span:nth-child(1){
+.menu-active>span:nth-child(1){
   --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.menu-active > span:nth-child(2){
-  --tw-rotate: 90deg;
+.menu-active>span:nth-child(2){
+  --tw-rotate: -90deg;
   --tw-scale-x: 0;
   --tw-scale-y: 0;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.menu-active > span:nth-child(3){
+.menu-active>span:nth-child(3){
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1287,7 +1403,7 @@ body{
   }
 }
 
-#toggle:checked ~ label div.toggle-circle, #toggle2:checked ~ label div.toggle-circle{
+#toggle:checked~label div.toggle-circle, #toggle2:checked~label div.toggle-circle{
   --tw-translate-x: 1.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }

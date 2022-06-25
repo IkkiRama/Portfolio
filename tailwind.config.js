@@ -12,6 +12,9 @@ module.exports = {
         primary: "#14b8a6",
         secondary: "#0ea5e9",
         dark: "#0f172a",
+        bg: "#F0F1FD",
+        skil: "#6777EF",
+        light: "hsla(0,0%,100%,.6)",
       },
 
       screens: {
