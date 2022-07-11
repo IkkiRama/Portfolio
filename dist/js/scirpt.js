@@ -1,3 +1,11 @@
+// preload
+var preload = document.querySelector(".preload");
+var main = document.querySelector("main");
+window.addEventListener("load", () => {
+  preload.style.display = "none";
+  main.style.display = "block";
+});
+
 let checkbox = document.querySelector("#toggle");
 let checkbox2 = document.querySelector("#toggle2");
 let html = document.querySelector("html");

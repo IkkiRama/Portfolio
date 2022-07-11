@@ -4,6 +4,10 @@
 @tailwind utilities;
 
 @layer base {
+  main{
+    display:none;
+  }
+  
   img {
     @apply object-cover object-center;
   }

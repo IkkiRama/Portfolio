@@ -16,904 +16,930 @@
 
 <body class="dark-bg max-w-full">
 
-    <!-- Header Start -->
-    <header class="bg-transparent transition absolute top-0 w-full h-16 z-[99999999999999999999999999]">
-        <div class="w-full h-full container flex items-center justify-between">
-
-            <a href="#" class="text-primary lg:pl-4 text-xl font-bold">Rifki Romadhan</a>
-
-            <div class="menu flex cursor-pointer lg:hidden items-center flex-col">
-                <span class="origin-top-left"></span>
-                <span></span>
-                <span class="origin-bottom-left"></span>
+    <section class="preload w-full h-screen flex justify-center items-center  bg-slate-800">
+        <div class="container flex flex-wrap flex-col sm:flex-row justify-center items-center">
+            <img src="./dist/img/wave.gif" alt="wave img">
+            <div class="flex flex-col mt-7 lg:mt-0">
+                <h1 class="text-slate-200 text-3xl md:text-5xl leading-8">Welcome to <span
+                        class="font-semibold text-primary">Rifki
+                        Romadhan</span> Website</h1>
+                <p class="text-primary mt-2">Please, wait a second...</p>
             </div>
+        </div>
+    </section>
 
-            <nav class="hidden lg:block">
-                <ul class="flex">
-                    <li class="mx-4">
-                        <a href="#hero" class="text-dark dark:text-slate-200">Beranda</a>
-                    </li>
+    <main>
+        <!-- Header Start -->
+        <header class="bg-transparent transition absolute top-0 w-full h-16 z-[99999999999999999999999999]">
+            <div class="w-full h-full container flex items-center justify-between">
 
-                    <li class="mx-4">
-                        <a href="#tentangSaya" class="text-dark dark:text-slate-200">Tentang Saya</a>
-                    </li>
+                <a href="#" class="text-primary lg:pl-4 text-xl font-bold">Rifki Romadhan</a>
 
+                <div class="menu flex cursor-pointer lg:hidden items-center flex-col">
+                    <span class="origin-top-left"></span>
+                    <span></span>
+                    <span class="origin-bottom-left"></span>
+                </div>
 
-                    <li class="mx-4">
-                        <a href="#experience" class="text-dark dark:text-slate-200">Experience</a>
-                    </li>
+                <nav class="hidden lg:block">
+                    <ul class="flex">
+                        <li class="mx-4">
+                            <a href="#hero" class="text-dark dark:text-slate-200">Beranda</a>
+                        </li>
 
-                    <li class="mx-4">
-                        <a href="#portfolio" class="text-dark dark:text-slate-200">Portfolio</a>
-                    </li>
-
-                    <li class="mx-4">
-                        <a href="#contact" class="text-dark dark:text-slate-200">Contact</a>
-                    </li>
-
-                    <li class="mx-4">
-                        <a href="#clients" class="text-dark dark:text-slate-200">Clients</a>
-                    </li>
+                        <li class="mx-4">
+                            <a href="#tentangSaya" class="text-dark dark:text-slate-200">Tentang Saya</a>
+                        </li>
 
 
-                    <li class="mx-4">
-                        <div class="flex">
-                            <span class="text-base text-slate-600 mr-2 dark:text-slate-200 ">Light</span>
+                        <li class="mx-4">
+                            <a href="#experience" class="text-dark dark:text-slate-200">Experience</a>
+                        </li>
 
-                            <input type="checkbox" id="toggle2" class="hidden">
-                            <label for="toggle2">
-                                <div class="w-12 h-5 bg-slate-500 rounded-full flex items-center cursor-pointer p-1">
+                        <li class="mx-4">
+                            <a href="#portfolio" class="text-dark dark:text-slate-200">Portfolio</a>
+                        </li>
+
+                        <li class="mx-4">
+                            <a href="#contact" class="text-dark dark:text-slate-200">Contact</a>
+                        </li>
+
+                        <li class="mx-4">
+                            <a href="#clients" class="text-dark dark:text-slate-200">Clients</a>
+                        </li>
+
+
+                        <li class="mx-4">
+                            <div class="flex">
+                                <span class="text-base text-slate-600 mr-2 dark:text-slate-200 ">Light</span>
+
+                                <input type="checkbox" id="toggle2" class="hidden">
+                                <label for="toggle2">
                                     <div
-                                        class="w-4 h-4  transition-all duration-300 bg-white rounded-full toggle-circle">
+                                        class="w-12 h-5 bg-slate-500 rounded-full flex items-center cursor-pointer p-1">
+                                        <div
+                                            class="w-4 h-4  transition-all duration-300 bg-white rounded-full toggle-circle">
+                                        </div>
                                     </div>
+                                </label>
+
+                                <span class="text-base text-slate-600 ml-2 dark:text-slate-200 ">Dark</span>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Header End -->
+
+
+        <!-- Nav Mobile Start-->
+        <nav
+            class="w-full transition duration-300 ease-in-out z-[999999999] lg:hidden navMobile pt-16 fixed backdrop-blur-xl bg-transparent ">
+            <ul class="flex flex-wrap">
+                <li class="w-full p-3">
+                    <a href="#hero" class="text-dark font-semibold dark:text-slate-200">Beranda</a>
+                </li>
+
+                <li class="w-full p-3">
+                    <a href="#tentangSaya" class="text-dark font-semibold dark:text-slate-200">Tentang Saya</a>
+                </li>
+
+                <li class="w-full p-3">
+                    <a href="#experience" class="text-dark font-semibold dark:text-slate-200">Experience</a>
+                </li>
+
+                <li class="w-full p-3">
+                    <a href="#portfolio" class="text-dark font-semibold dark:text-slate-200">Portfolio</a>
+                </li>
+
+                <li class="w-full p-3">
+                    <a href="#contact" class="text-dark font-semibold dark:text-slate-200">Contact</a>
+                </li>
+
+                <li class="w-full p-3">
+                    <a href="#clients" class="text-dark font-semibold dark:text-slate-200">Clients</a>
+                </li>
+
+
+                <li class="w-full p-3">
+                    <div class="flex">
+                        <span class="text-base font-semibold text-slate-600 mr-2 dark:text-slate-200 ">Light</span>
+
+                        <input type="checkbox" id="toggle" class="hidden">
+                        <label for="toggle">
+                            <div class="w-12 h-5 bg-slate-500 rounded-full flex items-center cursor-pointer p-1">
+                                <div class="w-4 h-4  transition-all duration-300 bg-white rounded-full toggle-circle">
                                 </div>
-                            </label>
-
-                            <span class="text-base text-slate-600 ml-2 dark:text-slate-200 ">Dark</span>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- Header End -->
-
-
-    <!-- Nav Mobile Start-->
-    <nav
-        class="w-full transition duration-300 ease-in-out z-[999999999] lg:hidden navMobile pt-16 fixed backdrop-blur-xl bg-transparent ">
-        <ul class="flex flex-wrap">
-            <li class="w-full p-3">
-                <a href="#hero" class="text-dark font-semibold dark:text-slate-200">Beranda</a>
-            </li>
-
-            <li class="w-full p-3">
-                <a href="#tentangSaya" class="text-dark font-semibold dark:text-slate-200">Tentang Saya</a>
-            </li>
-
-            <li class="w-full p-3">
-                <a href="#experience" class="text-dark font-semibold dark:text-slate-200">Experience</a>
-            </li>
-
-            <li class="w-full p-3">
-                <a href="#portfolio" class="text-dark font-semibold dark:text-slate-200">Portfolio</a>
-            </li>
-
-            <li class="w-full p-3">
-                <a href="#contact" class="text-dark font-semibold dark:text-slate-200">Contact</a>
-            </li>
-
-            <li class="w-full p-3">
-                <a href="#clients" class="text-dark font-semibold dark:text-slate-200">Clients</a>
-            </li>
-
-
-            <li class="w-full p-3">
-                <div class="flex">
-                    <span class="text-base font-semibold text-slate-600 mr-2 dark:text-slate-200 ">Light</span>
-
-                    <input type="checkbox" id="toggle" class="hidden">
-                    <label for="toggle">
-                        <div class="w-12 h-5 bg-slate-500 rounded-full flex items-center cursor-pointer p-1">
-                            <div class="w-4 h-4  transition-all duration-300 bg-white rounded-full toggle-circle">
                             </div>
+                        </label>
+
+                        <span class="text-base font-semibold text-slate-600 ml-2 dark:text-slate-200 ">Dark</span>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- Nav Mobile End-->
+
+
+
+
+        <!-- Section Hero Start -->
+        <section class="pt-32 lg:pt-0" id="hero">
+            <div class="container">
+                <div class="lg:h-screen flex flex-wrap items-center ">
+
+                    <div class="w-full self-center lg:w-1/2">
+                        <h1 class="font-semibold text-base text-primary md:text-lg lg:text-xl lg:mb-4">
+                            Hello Semua 👋, saya <span
+                                class="font-bold text-4xl text-dark lg:text-5xl dark:text-slate-200 ">Rifki
+                                Romadhan</span>
+                        </h1>
+                        <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl lg:mb-8 ">Web Developer & <span
+                                class="text-dark dark:text-slate-200">Content
+                                Creator</span>
+                        </h2>
+                        <p class="font-medium text-slate-600 mb-10 leading-relaxed dark:text-slate-400  ">
+                            A young web development professional with a diverse mindset. Winner in various competitions
+                            and
+                            bootcamps in the field of information technology.
+                        </p>
+
+                        <a href="https://wa.link/iiqcmb"
+                            class="px-8 py-3 bg-secondary text-white rounded-lg font-semibold hover:shadow-lg hover:bg-opacity-95 transition duration-300 ease-in-out active:ring-1 active:ring-offset-1 ring-secbg-secondary hover:outline hover:outline-1 hover:outline-sky-300 ">Hubungi
+                            Saya</a>
+                    </div>
+
+
+                    <div class="w-full self-end px-4 lg:w-1/2 lg:px-0">
+                        <div class="mt-10 relative">
+                            <img src="dist/img/IMG_20200905_144616__2_-removebg-preview.png" alt="img orang"
+                                class="max-w-full mx-auto">
+
+                            <span class="absolute -z-10 -bottom-10 left-1/2 -translate-x-1/2 ">
+                                <svg class="w-[500px] h-[500px] sm:w-[600px] sm:h-[600px] md:w-[700px] md:h-[700px] "
+                                    viewBox="0 0 200 200">
+                                    <path class="text-primary dark:fill-primary dark:text-primary fill-current"
+                                        d="M69.1,-23.6C75.2,-3.7,55.9,23.3,30.5,41.8C5,60.2,-26.5,70,-43.2,58.2C-59.9,46.3,-61.8,12.8,-52.1,-12C-42.5,-36.8,-21.2,-53,5.1,-54.7C31.5,-56.3,63,-43.5,69.1,-23.6Z"
+                                        transform="translate(100 100) " />
+                                </svg>
+                            </span>
                         </div>
-                    </label>
-
-                    <span class="text-base font-semibold text-slate-600 ml-2 dark:text-slate-200 ">Dark</span>
-                </div>
-            </li>
-        </ul>
-    </nav>
-    <!-- Nav Mobile End-->
-
-
-
-
-    <!-- Section Hero Start -->
-    <section class="pt-32 lg:pt-0" id="hero">
-        <div class="container">
-            <div class="lg:h-screen flex flex-wrap items-center ">
-
-                <div class="w-full self-center lg:w-1/2">
-                    <h1 class="font-semibold text-base text-primary md:text-lg lg:text-xl lg:mb-4">
-                        Hello Semua 👋, saya <span
-                            class="font-bold text-4xl text-dark lg:text-5xl dark:text-slate-200 ">Rifki
-                            Romadhan</span>
-                    </h1>
-                    <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl lg:mb-8 ">Web Developer & <span
-                            class="text-dark dark:text-slate-200">Content
-                            Creator</span>
-                    </h2>
-                    <p class="font-medium text-slate-600 mb-10 leading-relaxed dark:text-slate-400  ">
-                        A young web development professional with a diverse mindset. Winner in various competitions and
-                        bootcamps in the field of information technology.
-                    </p>
-
-                    <a href="https://wa.link/iiqcmb"
-                        class="px-8 py-3 bg-secondary text-white rounded-lg font-semibold hover:shadow-lg hover:bg-opacity-95 transition duration-300 ease-in-out active:ring-1 active:ring-offset-1 ring-secbg-secondary hover:outline hover:outline-1 hover:outline-sky-300 ">Hubungi
-                        Saya</a>
-                </div>
-
-
-                <div class="w-full self-end px-4 lg:w-1/2 lg:px-0">
-                    <div class="mt-10 relative">
-                        <img src="dist/img/IMG_20200905_144616__2_-removebg-preview.png" alt="img orang"
-                            class="max-w-full mx-auto">
-
-                        <span class="absolute -z-10 -bottom-10 left-1/2 -translate-x-1/2 ">
-                            <svg class="w-[500px] h-[500px] sm:w-[600px] sm:h-[600px] md:w-[700px] md:h-[700px] "
-                                viewBox="0 0 200 200">
-                                <path class="text-primary dark:fill-primary dark:text-primary fill-current"
-                                    d="M69.1,-23.6C75.2,-3.7,55.9,23.3,30.5,41.8C5,60.2,-26.5,70,-43.2,58.2C-59.9,46.3,-61.8,12.8,-52.1,-12C-42.5,-36.8,-21.2,-53,5.1,-54.7C31.5,-56.3,63,-43.5,69.1,-23.6Z"
-                                    transform="translate(100 100) " />
-                            </svg>
-                        </span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Section Hero End -->
-
-
-    <!-- Section Tentang Saya Start -->
-    <section id="tentangSaya" class="pt-32">
-        <div class="container">
-            <div class="flex flex-wrap ">
-                <div class="boxTentangSaya">
-                    <h3 class="title">Tentang Saya</h3>
-                    <h2>Yuk kenalan lebih dekat dengan saya</h2>
-                    <p>
-                        A young web development professional with a diverse mindset. Winner in various competitions and
-                        bootcamps in
-                        the field of information technology. Spending free time as a freelancer for a technology
-                        company(
-                        Freelance
-                        ).
-                    </p>
-                </div>
-
-                <div class="boxTentangSaya mt-12">
-                    <h2>Mari Berteman</h2>
-                    <p>
-                        Mari berteman untuk menciptakan sesuatu yang luar biasa bersama saya demi kemajuan Indonesia
-                        yang lebih baik lagi.
-                    </p>
-
-                    <div class="flex items-center mt-6">
-                        <!-- Youtube -->
-                        <a href="https://www.youtube.com/channel/UCDYgvHIUtwRDRfS4srHFQDg" target="_blank"
-                            class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
-                            <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <title>YouTube</title>
-                                <path
-                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                            </svg>
-                        </a>
-
-                        <!-- Instagram -->
-                        <a href="https://instagram.com/george_ikki" target="_blank"
-                            class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
-                            <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <title>Instagram</title>
-                                <path
-                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
-                            </svg>
-                        </a>
-
-                        <!-- Github -->
-                        <a href="https://github.com/IkkiRama/" target="_blank"
-                            class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
-
-                            <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <title>GitHub</title>
-                                <path
-                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                            </svg>
-                        </a>
-
-                        <!-- Whatsapp -->
-                        <a href="https://wa.link/iiqcmb" target="_blank"
-                            class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
-                            <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <title>WhatsApp</title>
-                                <path
-                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-                            </svg>
-                        </a>
-
-                        <!-- LinkedIn -->
-                        <a href="https://www.linkedin.com/in/rifki-romadhan-purbalingga/" target="_blank"
-                            class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
-                            <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <title>LinkedIn</title>
-                                <path
-                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                            </svg>
-                        </a>
                     </div>
 
                 </div>
             </div>
+        </section>
+        <!-- Section Hero End -->
 
-            <div class="flex flex-wrap  mt-10 ">
-                <div class="boxTentangSaya my-5 md:m-0 md:my-5 ">
-                    <!-- <iframe class="w-full h-[315px]" src="https://www.youtube.com/embed/hz9HfTlFgrw"
+
+        <!-- Section Tentang Saya Start -->
+        <section id="tentangSaya" class="pt-32">
+            <div class="container">
+                <div class="flex flex-wrap ">
+                    <div class="boxTentangSaya">
+                        <h3 class="title">Tentang Saya</h3>
+                        <h2>Yuk kenalan lebih dekat dengan saya</h2>
+                        <p>
+                            A young web development professional with a diverse mindset. Winner in various competitions
+                            and
+                            bootcamps in
+                            the field of information technology. Spending free time as a freelancer for a technology
+                            company(
+                            Freelance
+                            ).
+                        </p>
+                    </div>
+
+                    <div class="boxTentangSaya mt-12">
+                        <h2>Mari Berteman</h2>
+                        <p>
+                            Mari berteman untuk menciptakan sesuatu yang luar biasa bersama saya demi kemajuan Indonesia
+                            yang lebih baik lagi.
+                        </p>
+
+                        <div class="flex items-center mt-6">
+                            <!-- Youtube -->
+                            <a href="https://www.youtube.com/channel/UCDYgvHIUtwRDRfS4srHFQDg" target="_blank"
+                                class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
+                                <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <title>YouTube</title>
+                                    <path
+                                        d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                                </svg>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a href="https://instagram.com/george_ikki" target="_blank"
+                                class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
+                                <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <title>Instagram</title>
+                                    <path
+                                        d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                                </svg>
+                            </a>
+
+                            <!-- Github -->
+                            <a href="https://github.com/IkkiRama/" target="_blank"
+                                class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
+
+                                <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <title>GitHub</title>
+                                    <path
+                                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                                </svg>
+                            </a>
+
+                            <!-- Whatsapp -->
+                            <a href="https://wa.link/iiqcmb" target="_blank"
+                                class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
+                                <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <title>WhatsApp</title>
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                                </svg>
+                            </a>
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/rifki-romadhan-purbalingga/" target="_blank"
+                                class="mr-3 flex w-9 h-9 lg:h-11 lg:w-11 items-center justify-center rounded-full border bg-blue-600 border-blue-300  hover:border-blue-700 hover:bg-blue-700 text-white">
+                                <svg role="img" class="w-[20px] lg:w-[25px] fill-current" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <title>LinkedIn</title>
+                                    <path
+                                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap  mt-10 ">
+                    <div class="boxTentangSaya my-5 md:m-0 md:my-5 ">
+                        <!-- <iframe class="w-full h-[315px]" src="https://www.youtube.com/embed/hz9HfTlFgrw"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe> -->
-                    <div class="w-full h-[315px] bg-blue-500"></div>
-                </div>
-                <div class="boxTentangSaya my-5 md:m-0 md:my-5 ">
-                    <!-- <iframe class="w-full h-[315px]" src="https://www.youtube.com/embed/1BO-8pzbW0I"
+                        <div class="w-full h-[315px] bg-blue-500"></div>
+                    </div>
+                    <div class="boxTentangSaya my-5 md:m-0 md:my-5 ">
+                        <!-- <iframe class="w-full h-[315px]" src="https://www.youtube.com/embed/1BO-8pzbW0I"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe> -->
-                    <div class="w-full h-[315px] bg-blue-500"></div>
-                </div>
+                        <div class="w-full h-[315px] bg-blue-500"></div>
+                    </div>
 
-                <div class="boxTentangSaya my-5 md:m-0 md:my-5">
-                    <!-- <iframe class="w-full h-[315px]" src="https://www.youtube.com/embed/Lb7suJvu_vM"
+                    <div class="boxTentangSaya my-5 md:m-0 md:my-5">
+                        <!-- <iframe class="w-full h-[315px]" src="https://www.youtube.com/embed/Lb7suJvu_vM"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe> -->
-                    <div class="w-full h-[315px] bg-blue-500"></div>
-                </div>
+                        <div class="w-full h-[315px] bg-blue-500"></div>
+                    </div>
 
-                <div class="boxTentangSaya my-5 md:m-0 md:my-5">
-                    <!-- <iframe class="w-full h-[315px]" src="https://www.youtube.com/embed/JoPIjfzPLe4"
+                    <div class="boxTentangSaya my-5 md:m-0 md:my-5">
+                        <!-- <iframe class="w-full h-[315px]" src="https://www.youtube.com/embed/JoPIjfzPLe4"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe> -->
-                    <div class="w-full h-[315px] bg-blue-500"></div>
+                        <div class="w-full h-[315px] bg-blue-500"></div>
+                    </div>
                 </div>
+
+
             </div>
+        </section>
+        <!-- Section Tentang Saya End -->
+        <section id="experience" class="py-24">
+            <div class="container">
 
-
-        </div>
-    </section>
-    <!-- Section Tentang Saya End -->
-    <section id="experience" class="py-24">
-        <div class="container">
-
-            <div class="experience-container">
-                <div class="experience-title">
-                    <h3 class="title">My Experience</h3>
-                    <h2>What Skills I Have</h2>
-                    <p>The following is my experience in the field of web developments</p>
-                </div>
-            </div>
-
-            <div class="experience-body">
-
-                <div class="experience-body-container">
-                    <div class="experience-body-title">
-                        <h3>Frontend Development</h3>
-                        <p>4 Year Experience</p>
-                    </div>
-
-                    <div class="experience-body-detail">
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>HTML</h4>
-                                <small>Certified</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>CSS</h4>
-                                <small>Certified</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>JavaScript</h4>
-                                <small>Certified</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Bootstrap</h4>
-                                <small>Certified</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>SCSS</h4>
-                                <small>Experienced</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Tailwind</h4>
-                                <small>Intermediate</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Vue JS</h4>
-                                <small>Intermediate</small>
-                            </div>
-                        </div>
-
+                <div class="experience-container">
+                    <div class="experience-title">
+                        <h3 class="title">My Experience</h3>
+                        <h2>What Skills I Have</h2>
+                        <p>The following is my experience in the field of web developments</p>
                     </div>
                 </div>
 
-                <div class="experience-body-container">
-                    <div class="experience-body-title">
-                        <h3>Backend Development</h3>
-                        <p>4 Year Experience</p>
-                    </div>
+                <div class="experience-body">
 
-                    <div class="experience-body-detail">
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>MySQL</h4>
-                                <small>Experienced</small>
-                            </div>
+                    <div class="experience-body-container">
+                        <div class="experience-body-title">
+                            <h3>Frontend Development</h3>
+                            <p>4 Year Experience</p>
                         </div>
 
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>PHP</h4>
-                                <small>Intermediate</small>
+                        <div class="experience-body-detail">
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>HTML</h4>
+                                    <small>Certified</small>
+                                </div>
                             </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>CSS</h4>
+                                    <small>Certified</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>JavaScript</h4>
+                                    <small>Certified</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Bootstrap</h4>
+                                    <small>Certified</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>SCSS</h4>
+                                    <small>Experienced</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Tailwind</h4>
+                                    <small>Intermediate</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Vue JS</h4>
+                                    <small>Intermediate</small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="experience-body-container">
+                        <div class="experience-body-title">
+                            <h3>Backend Development</h3>
+                            <p>4 Year Experience</p>
                         </div>
 
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Laravel</h4>
-                                <small>Intermediate</small>
+                        <div class="experience-body-detail">
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>MySQL</h4>
+                                    <small>Experienced</small>
+                                </div>
                             </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>PHP</h4>
+                                    <small>Intermediate</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Laravel</h4>
+                                    <small>Intermediate</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>TypeScript</h4>
+                                    <small>Intermediate</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Go</h4>
+                                    <small>Basic</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Python</h4>
+                                    <small>Basic</small>
+                                </div>
+                            </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Firebase</h4>
+                                    <small>Basic</small>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="experience-body-container">
+                        <div class="experience-body-title">
+                            <h3>Version Control System</h3>
+                            <p>3 Year Experience</p>
                         </div>
 
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>TypeScript</h4>
-                                <small>Intermediate</small>
+                        <div class="experience-body-detail">
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div>
+                                    <h4>Git</h4>
+                                    <small>Intermediate</small>
+                                </div>
                             </div>
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Github</h4>
+                                    <small>Intermediate</small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="experience-body-container">
+                        <div class="experience-body-title">
+                            <h3>Visual Communication Design</h3>
+                            <p>2 Year Experience</p>
                         </div>
 
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Go</h4>
-                                <small>Basic</small>
+                        <div class="experience-body-detail">
+
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Logo Branding Design</h4>
+                                    <small>Intermediate</small>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Python</h4>
-                                <small>Basic</small>
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Corel Draw</h4>
+                                    <small>Intermediate</small>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Firebase</h4>
-                                <small>Basic</small>
+                            <div class="experience-detail">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="text-primary mt-1 mr-2" height="1em" width="1em">
+                                    <path
+                                        d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                    </path>
+                                </svg>
+                                <div class="">
+                                    <h4>Figma</h4>
+                                    <small>Intermediate</small>
+                                </div>
                             </div>
+
                         </div>
-
-
-                    </div>
-                </div>
-
-                <div class="experience-body-container">
-                    <div class="experience-body-title">
-                        <h3>Version Control System</h3>
-                        <p>3 Year Experience</p>
-                    </div>
-
-                    <div class="experience-body-detail">
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div>
-                                <h4>Git</h4>
-                                <small>Intermediate</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Github</h4>
-                                <small>Intermediate</small>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="experience-body-container">
-                    <div class="experience-body-title">
-                        <h3>Visual Communication Design</h3>
-                        <p>2 Year Experience</p>
-                    </div>
-
-                    <div class="experience-body-detail">
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Logo Branding Design</h4>
-                                <small>Intermediate</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Corel Draw</h4>
-                                <small>Intermediate</small>
-                            </div>
-                        </div>
-
-                        <div class="experience-detail">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
-                                class="text-primary mt-1 mr-2" height="1em" width="1em">
-                                <path
-                                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z">
-                                </path>
-                            </svg>
-                            <div class="">
-                                <h4>Figma</h4>
-                                <small>Intermediate</small>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        </div>
-    </section>
-    <!-- Section Experience Ends  -->
-
-
-
-    <!-- Section Project Start -->
-    <section id="portfolio" class="pb-32">
-        <div class="container">
-            <div class="flex flex-wrap text-center justify-center ">
-                <div class="boxTentangSaya">
-                    <h3 class="title">Portfolio</h3>
-                    <h2>Projek Terbaru</h2>
-                    <p>
-                        The final project I've ever made so far. I made this project for competitions and some of my
-                        clients.
-                    </p>
-                </div>
-            </div>
-
-            <div class="flex flex-wrap justify-evenly md:gap-4 ">
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/1.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Event Organizer</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/IITC-2021"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://IITC-2021.rifkiromadhan.repl.co"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
-                    </div>
-                </div>
-
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/2.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Sekolahan</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/WEBSITE-SEKOLAH"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://WEBSITE-SEKOLAH.rifkiromadhan.repl.co"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
-                    </div>
-                </div>
-
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/3.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Company Profile</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/Free-Bootstrap-Admin-Template"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://Free-Bootstrap-Admin-Template.rifkiromadhan.repl.co"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
-                    </div>
-                </div>
-
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/4.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Belajar Koding</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/CodePee-Website-Belajar-Koding"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://CodePee-Website-Belajar-Koding.rifkiromadhan.repl.co"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
-                    </div>
-                </div>
-
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/5.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Covid 19</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/cofight"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://cofight.rifkiromadhan.repl.co"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
-                    </div>
-                </div>
-
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/6.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Profil Jurusan</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/HMJ-MANAJEMEN-INFORMATIKA-STMIK-AKAKOM"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://HMJ-MANAJEMEN-INFORMATIKA-STMIK-AKAKOM.rifkiromadhan.repl.co"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
-                    </div>
-                </div>
-
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/7.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Travel</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/Wazee"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://wazee.rifkiromadhan.repl.co/"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
-                    </div>
-                </div>
-
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/8.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Admin Panel</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/Admin-For-LKS"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://admin-for-lks.rifkiromadhan.repl.co/"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
-                    </div>
-                </div>
-
-                <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
-                    <img src="dist/img/Portfolio/9.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
-                    <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Galeri Foto</h3>
-
-                    <div class="btn flex">
-                        <a href="https://github.com/IkkiRama/grid-zoom"
-                            class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
-                        <a href="https://grid-zoom.rifkiromadhan.repl.co/"
-                            class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
                     </div>
                 </div>
 
             </div>
-        </div>
-    </section>
-    <!-- Section Project End -->
+
+            </div>
+        </section>
+        <!-- Section Experience Ends  -->
 
 
 
+        <!-- Section Project Start -->
+        <section id="portfolio" class="pb-32">
+            <div class="container">
+                <div class="flex flex-wrap text-center justify-center ">
+                    <div class="boxTentangSaya">
+                        <h3 class="title">Portfolio</h3>
+                        <h2>Projek Terbaru</h2>
+                        <p>
+                            The final project I've ever made so far. I made this project for competitions and some of my
+                            clients.
+                        </p>
+                    </div>
+                </div>
 
+                <div class="flex flex-wrap justify-evenly md:gap-4 ">
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/1.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Event Organizer
+                        </h3>
 
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/IITC-2021"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://IITC-2021.rifkiromadhan.repl.co"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
 
-    <!-- Section Hubungi Saya Start -->
-    <section id="contact">
-        <div class="mb-32  flex flex-row justify-center flex-wrap lg:flex-nowrap">
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/2.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Sekolahan</h3>
 
-            <div
-                class="w-full lg:w-[30%] 2xl:w-[40%] py-10 lg:pt-10 2xl:pl-[20%] lg:pl-20 bg-dark dark:bg-blue-600 lg:rounded-tr-xl lg:rounded-br-xl lg:mr-3">
-                <div class="container ">
-                    <h2 class="font-bold text-3xl mb-3 lg:text-4xl text-white">Contact</h2>
-                    <div class="w-40 h-1 lg:h-2 rounded-full mb-5 lg:mb-10 bg-indigo-700"></div>
-                    <p class="text-base text-white lg:text-lg">
-                        Any question or remarks? Just write me a message
-                    </p>
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/WEBSITE-SEKOLAH"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://WEBSITE-SEKOLAH.rifkiromadhan.repl.co"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/3.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Company Profile
+                        </h3>
+
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/Free-Bootstrap-Admin-Template"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://Free-Bootstrap-Admin-Template.rifkiromadhan.repl.co"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/4.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Belajar Koding
+                        </h3>
+
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/CodePee-Website-Belajar-Koding"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://CodePee-Website-Belajar-Koding.rifkiromadhan.repl.co"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/5.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Covid 19</h3>
+
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/cofight"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://cofight.rifkiromadhan.repl.co"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/6.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Profil Jurusan
+                        </h3>
+
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/HMJ-MANAJEMEN-INFORMATIKA-STMIK-AKAKOM"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://HMJ-MANAJEMEN-INFORMATIKA-STMIK-AKAKOM.rifkiromadhan.repl.co"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/7.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Travel</h3>
+
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/Wazee"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://wazee.rifkiromadhan.repl.co/"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/8.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Admin Panel</h3>
+
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/Admin-For-LKS"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://admin-for-lks.rifkiromadhan.repl.co/"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="w-full p-2 sm:p-4 shadow-md mt-10 rounded-lg md:w-[45%] lg:w-[30%]  ">
+                        <img src="dist/img/Portfolio/9.png" class="w-full h-40 sm:h-64 mb-5  rounded-lg bg-blue-500">
+                        <h3 class="text-xl dark:text-slate-200 font-semibold mb-5 text-left ">Website Galeri Foto</h3>
+
+                        <div class="btn flex">
+                            <a href="https://github.com/IkkiRama/grid-zoom"
+                                class="w-1/2 text-center hover:bg-teal-700 rounded-tl-lg rounded-bl-lg text-white font-semibold px-8 py-3 bg-primary">Repo</a>
+                            <a href="https://grid-zoom.rifkiromadhan.repl.co/"
+                                class="w-1/2 text-center hover:bg-blue-600 rounded-tr-lg rounded-br-lg text-white font-semibold px-8 py-3 bg-secondary">Demo</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+        </section>
+        <!-- Section Project End -->
 
-            <div class="w-full lg:w-[70%] 2xl:w-[70%]">
+
+
+
+
+
+        <!-- Section Hubungi Saya Start -->
+        <section id="contact">
+            <div class="mb-32  flex flex-row justify-center flex-wrap lg:flex-nowrap">
+
+                <div
+                    class="w-full lg:w-[30%] 2xl:w-[40%] py-10 lg:pt-10 2xl:pl-[20%] lg:pl-20 bg-dark dark:bg-blue-600 lg:rounded-tr-xl lg:rounded-br-xl lg:mr-3">
+                    <div class="container ">
+                        <h2 class="font-bold text-3xl mb-3 lg:text-4xl text-white">Contact</h2>
+                        <div class="w-40 h-1 lg:h-2 rounded-full mb-5 lg:mb-10 bg-indigo-700"></div>
+                        <p class="text-base text-white lg:text-lg">
+                            Any question or remarks? Just write me a message
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-[70%] 2xl:w-[70%]">
+                    <div class="container">
+                        <form action="" class="mt-10 lg:mt-0 ">
+                            <label for="name" class="w-full text-secondary font-semibold  ">Name</label>
+                            <input type="text" id="name"
+                                class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-200 text-dark"
+                                placeholder="Masukkan nama anda...">
+
+                            <label for="email" class="w-full text-secondary font-semibold  ">Email</label>
+                            <input type="email" id="email"
+                                class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-200 text-dark"
+                                placeholder="Masukkan email anda...">
+
+                            <label for="message" class="w-full text-secondary font-semibold  ">Message</label>
+                            <textarea id="message" rows="5"
+                                class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-200 text-dark"
+                                placeholder="Masukkan pesan anda..."></textarea>
+
+                            <button
+                                class="px-10 py-3 bg-secondary rounded-lg shadow-md text-white font-semibold hover:bg-sky-600 active:bg-sky-700">Kirim</button>
+
+                        </form>
+                    </div>
+
+
+                </div>
+        </section>
+        <!-- Section Hubungi Saya End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Section Partner Start -->
+        <section id="clients" class="bg-blue-600 lg:rounded-tl-[100px]">
+            <!-- client -->
+            <div class="py-10 lg:pl-[55px] lg:py-20">
                 <div class="container">
-                    <form action="" class="mt-10 lg:mt-0 ">
-                        <label for="name" class="w-full text-secondary font-semibold  ">Name</label>
-                        <input type="text" id="name"
-                            class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-200 text-dark"
-                            placeholder="Masukkan nama anda...">
+                    <div class="flex flex-wrap lg:mb-20 lg:flex-nowrap items-center">
+                        <h2 class="font-bold text-white text-3xl lg:text-4xl mb-5 lg:mr-20 ">Clients</h2>
+                        <p class=" text-white mb-10 lg:mb-0 max-w-[630px] lg:text-xl">
+                            Mereka merupakan perusahaan yang telah bekerja sama dan atau mengapresiasi saya melalui
+                            karya
+                            yang saya buat.
+                        </p>
+                    </div>
 
-                        <label for="email" class="w-full text-secondary font-semibold  ">Email</label>
-                        <input type="email" id="email"
-                            class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-200 text-dark"
-                            placeholder="Masukkan email anda...">
-
-                        <label for="message" class="w-full text-secondary font-semibold  ">Message</label>
-                        <textarea id="message" rows="5"
-                            class="w-full rounded-lg border-2 p-3 focus:outline-none focus:outline-secondary my-3 bg-slate-200 text-dark"
-                            placeholder="Masukkan pesan anda..."></textarea>
-
-                        <button
-                            class="px-10 py-3 bg-secondary rounded-lg shadow-md text-white font-semibold hover:bg-sky-600 active:bg-sky-700">Kirim</button>
-
-                    </form>
-                </div>
-
-
-            </div>
-    </section>
-    <!-- Section Hubungi Saya End -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Section Partner Start -->
-    <section id="clients" class="bg-blue-600 lg:rounded-tl-[100px]">
-        <!-- client -->
-        <div class="py-10 lg:pl-[55px] lg:py-20">
-            <div class="container">
-                <div class="flex flex-wrap lg:mb-20 lg:flex-nowrap items-center">
-                    <h2 class="font-bold text-white text-3xl lg:text-4xl mb-5 lg:mr-20 ">Clients</h2>
-                    <p class=" text-white mb-10 lg:mb-0 max-w-[630px] lg:text-xl">
-                        Mereka merupakan perusahaan yang telah bekerja sama dan atau mengapresiasi saya melalui karya
-                        yang saya buat.
-                    </p>
-                </div>
-
-                <!-- imgClient -->
-                <div class="flex flex-wrap justify-evenly items-center">
-                    <img class="imgClient" src="dist/img/clients/IITC-LOGO.png" alt="client">
-                    <img class="imgClient" src="dist/img/clients/logo HIMARAKSI.png" alt="client">
-                    <img class="imgClient" src="dist/img/clients/UTDI-logo.png" alt="client">
-                    <img class="imgClient" src="dist/img/clients/STIMIK-AMIKOM.png" alt="client">
-                    <img class="imgClient" src="dist/img/clients/skilvul-logo-white.svg" alt="client">
+                    <!-- imgClient -->
+                    <div class="flex flex-wrap justify-evenly items-center">
+                        <img class="imgClient" src="dist/img/clients/IITC-LOGO.png" alt="client">
+                        <img class="imgClient" src="dist/img/clients/logo HIMARAKSI.png" alt="client">
+                        <img class="imgClient" src="dist/img/clients/UTDI-logo.png" alt="client">
+                        <img class="imgClient" src="dist/img/clients/STIMIK-AMIKOM.png" alt="client">
+                        <img class="imgClient" src="dist/img/clients/skilvul-logo-white.svg" alt="client">
+                    </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="w-full mt-5 pt-7 md:pt-16 bg-dark  lg:w-[90%] lg:rounded-tr-[100px]">
-            <div class="container">
-                <!-- kolaborasi -->
-                <div class="mb-16 lg:pl-10">
-                    <h2 class="text-white font-bold text-2xl md:text-3xl lg:text-4xl ">Tertarik Untuk Kolaborasi?</h2>
-                    <p class="text-base text-white mt-5 mb-10 max-w-[630px] md:text-xl lg:mt-10 lg:mb-16">
-                        Saya suka membangun hubungan dekat dengan klien saya. Saya percaya kolaborasi dinamis adalah
-                        satu-satunya cara untuk menyelesaikan pekerjaan dengan baik.
-                    </p>
+            <div class="w-full mt-5 pt-7 md:pt-16 bg-dark  lg:w-[90%] lg:rounded-tr-[100px]">
+                <div class="container">
+                    <!-- kolaborasi -->
+                    <div class="mb-16 lg:pl-10">
+                        <h2 class="text-white font-bold text-2xl md:text-3xl lg:text-4xl ">Tertarik Untuk Kolaborasi?
+                        </h2>
+                        <p class="text-base text-white mt-5 mb-10 max-w-[630px] md:text-xl lg:mt-10 lg:mb-16">
+                            Saya suka membangun hubungan dekat dengan klien saya. Saya percaya kolaborasi dinamis adalah
+                            satu-satunya cara untuk menyelesaikan pekerjaan dengan baik.
+                        </p>
 
-                    <a href="https://wa.link/iiqcmb" class="py-3 font-semibold px-8 bg-blue-600 text-white rounded-xl shadow-md hover:outline hover:outline-2
+                        <a href="https://wa.link/iiqcmb" class="py-3 font-semibold px-8 bg-blue-600 text-white rounded-xl shadow-md hover:outline hover:outline-2
                     hover:outline-blue-400 active:ring-1 active:ring-offset-2 active:ring-secondary ">Hubungi</a>
-                </div>
-
-                <!-- footer -->
-                <div class="flex flex-wrap lg:pl-10">
-                    <div class="mt-10 w-full lg:w-1/3">
-                        <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Hubungi Saya</h2>
-                        <p class="text-white mb-2 md:text-lg mb:mb-4">No Wa : 082133320489</p>
-                        <p class="text-white mb-2 md:text-lg mb:mb-4">Email : georgeikkirama@gmail.com</p>
-                        <p class="text-white mb-2 md:text-lg mb:mb-4">Alamat : Jl. Raya Dagan RT 03 RW 09</p>
                     </div>
 
-                    <div class="mt-10 w-full sm:w-1/2 lg:w-1/3">
-                        <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Tautan</h2>
-                        <div class="flex flex-wrap">
-                            <a href="#hero"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Beranda</a>
-                            <a href="#tentangSaya"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Tentang
-                                Saya</a>
-                            <a href="#portfolio"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Portfolio</a>
-                            <a href="#contact"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Contact</a>
-                            <a href="#clients"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Clients</a>
+                    <!-- footer -->
+                    <div class="flex flex-wrap lg:pl-10">
+                        <div class="mt-10 w-full lg:w-1/3">
+                            <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Hubungi Saya</h2>
+                            <p class="text-white mb-2 md:text-lg mb:mb-4">No Wa : 082133320489</p>
+                            <p class="text-white mb-2 md:text-lg mb:mb-4">Email : georgeikkirama@gmail.com</p>
+                            <p class="text-white mb-2 md:text-lg mb:mb-4">Alamat : Jl. Raya Dagan RT 03 RW 09</p>
                         </div>
-                    </div>
 
-                    <div class="my-10 w-full sm:w-1/2 lg:w-1/3">
-                        <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Social Media</h2>
-                        <div class="flex flex-wrap">
-                            <a href="https://wa.link/iiqcmb"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">WhatsApp</a>
-                            <a href="https://github.com/IkkiRama"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">GitHub</a>
-                            <a href="https://www.instagram.com/george_ikki/"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Instagram</a>
-                            <a href="https://www.youtube.com/channel/UCDYgvHIUtwRDRfS4srHFQDg"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Youtube</a>
-                            <a href="https://www.linkedin.com/in/rifki-romadhan-purbalingga/"
-                                class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">LinkedIn</a>
+                        <div class="mt-10 w-full sm:w-1/2 lg:w-1/3">
+                            <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Tautan</h2>
+                            <div class="flex flex-wrap">
+                                <a href="#hero"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Beranda</a>
+                                <a href="#tentangSaya"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Tentang
+                                    Saya</a>
+                                <a href="#portfolio"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Portfolio</a>
+                                <a href="#contact"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Contact</a>
+                                <a href="#clients"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Clients</a>
+                            </div>
                         </div>
+
+                        <div class="my-10 w-full sm:w-1/2 lg:w-1/3">
+                            <h2 class="text-white lg:mb-11 font-bold text-2xl mb-5 md:text-3xl">Social Media</h2>
+                            <div class="flex flex-wrap">
+                                <a href="https://wa.link/iiqcmb"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">WhatsApp</a>
+                                <a href="https://github.com/IkkiRama"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">GitHub</a>
+                                <a href="https://www.instagram.com/george_ikki/"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Instagram</a>
+                                <a href="https://www.youtube.com/channel/UCDYgvHIUtwRDRfS4srHFQDg"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">Youtube</a>
+                                <a href="https://www.linkedin.com/in/rifki-romadhan-purbalingga/"
+                                    class="text-white mb-4 w-full hover:text-blue-600 hover:underline md:text-lg">LinkedIn</a>
+                            </div>
+                        </div>
+
+                        <footer
+                            class="text-white w-full text-center text-xs font-medium lg:text-lg py-5 lg:py-7 lg:mt-20">
+                            Dibuat dengan ❤️ oleh <a href="http://github.com/IkkiRama/"
+                                class="hover:underline text-primary">Rifki
+                                Romadhan</a>,
+                            menggunakan <a href="https://tailwindcss.com/" class="hover:underline text-primary">Tailwind
+                                CSS</a>.
+                        </footer>
+
                     </div>
 
-                    <footer class="text-white w-full text-center text-xs font-medium lg:text-lg py-5 lg:py-7 lg:mt-20">
-                        Dibuat dengan ❤️ oleh <a href="http://github.com/IkkiRama/"
-                            class="hover:underline text-primary">Rifki
-                            Romadhan</a>,
-                        menggunakan <a href="https://tailwindcss.com/" class="hover:underline text-primary">Tailwind
-                            CSS</a>.
-                    </footer>
 
                 </div>
-
-
             </div>
-        </div>
-    </section>
-    <!-- Section Partner End -->
+        </section>
+        <!-- Section Partner End -->
 
 
 
-    <a href="#hero"
-        class="bottom-3 right-3 z-[9999] h-12 w-12 animate-bounce items-center justify-center rounded-full bg-primary  hover:animate-pulse flex"
-        id="animasi">
-        <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
-    </a>
+        <a href="#hero"
+            class="bottom-3 right-3 z-[9999] h-12 w-12 animate-bounce items-center justify-center rounded-full bg-primary  hover:animate-pulse flex"
+            id="animasi">
+            <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
+        </a>
+
+    </main>
+
 
 
     <script src="dist/js/scirpt.js"></script>

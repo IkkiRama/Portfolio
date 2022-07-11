@@ -425,6 +425,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+main{
+  display:none;
+}
+
 img{
   -o-object-fit: cover;
      object-fit: cover;
@@ -789,6 +793,14 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.mt-7{
+  margin-top: 1.75rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .mr-2{
   margin-right: 0.5rem;
 }
@@ -849,10 +861,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.mt-2{
-  margin-top: 0.5rem;
-}
-
 .block{
   display: block;
 }
@@ -863,6 +871,10 @@ body {
 
 .hidden{
   display: none;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .h-16{
@@ -1097,6 +1109,11 @@ body {
   border-color: rgb(147 197 253 / var(--tw-border-opacity));
 }
 
+.bg-slate-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
 .bg-transparent{
   background-color: transparent;
 }
@@ -1221,6 +1238,11 @@ body {
   text-align: center;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -1241,11 +1263,6 @@ body {
   line-height: 1.75rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1256,20 +1273,29 @@ body {
   line-height: 1rem;
 }
 
-.font-bold{
-  font-weight: 700;
-}
-
 .font-semibold{
   font-weight: 600;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .font-medium{
   font-weight: 500;
 }
 
+.leading-8{
+  line-height: 2rem;
+}
+
 .leading-relaxed{
   line-height: 1.625;
+}
+
+.text-slate-200{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .text-primary{
@@ -1574,6 +1600,10 @@ body {
     width: 50%;
   }
 
+  .sm\:flex-row{
+    flex-direction: row;
+  }
+
   .sm\:p-4{
     padding: 1rem;
   }
@@ -1609,6 +1639,11 @@ body {
     padding-top: 4rem;
   }
 
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1626,6 +1661,10 @@ body {
 }
 
 @media (min-width: 1024px){
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+
   .lg\:mb-4{
     margin-bottom: 1rem;
   }
@@ -1640,10 +1679,6 @@ body {
 
   .lg\:mb-10{
     margin-bottom: 2.5rem;
-  }
-
-  .lg\:mt-0{
-    margin-top: 0px;
   }
 
   .lg\:mb-20{
